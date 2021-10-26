@@ -1,4 +1,4 @@
-window.onload = () => {
+window.addEventListener('load', () => {
   console.log('document loaded');
   // reference to the html element
   const canvas = document.getElementById('canvas');
@@ -82,4 +82,4 @@ window.onload = () => {
   // stroke thickness
   ctx.lineWidth = 10;
   ctx.stroke();
-};
+});
